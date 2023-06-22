@@ -31,3 +31,7 @@ void ACPP_Pet::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
+
+void takeAction();
+
+void drop();

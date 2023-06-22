@@ -23,3 +23,14 @@ enum petOrder
 	wait UMETA(ToolTip = "Stay at a spot"),
 	interact UMETA(ToolTip = "Interact with an object or attack an enemy")
 };
+
+UENUM(BlueprintType)
+enum actionTypes
+{
+	dogDig,
+	dogPull,
+	dogAttack,
+	dragCut,
+	dragBring,
+	dragStun
+};

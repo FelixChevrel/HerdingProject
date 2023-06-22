@@ -25,11 +25,11 @@ public:
 
 
 	// EventCalledWhenclose to the target
-	UFUNCTION(BlueprintImplementableEvent, Category = "PetBehavior")
+	UFUNCTION(BlueprintImplementableEvent, Category = "PetBehavior", BlueprintCallable)
 		void takeAction();
 
 	// Event Call when getting close to the player with an object
-	UFUNCTION(BlueprintImplementableEvent, Category = "PetBehavior")
+	UFUNCTION(BlueprintImplementableEvent, Category = "PetBehavior", BlueprintCallable)
 		void drop();
 
 protected:
