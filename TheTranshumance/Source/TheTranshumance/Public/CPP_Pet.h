@@ -23,6 +23,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PetBehavior") bool carrying;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PetBehavior") bool InOrder;
+
 
 	// EventCalledWhenclose to the target
 	UFUNCTION(BlueprintImplementableEvent, Category = "PetBehavior", BlueprintCallable)
