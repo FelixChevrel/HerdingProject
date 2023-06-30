@@ -34,6 +34,9 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "PetBehavior", BlueprintCallable)
 		void drop();
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "PetBehavior", BlueprintCallable)
+		void CancelOrder();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
